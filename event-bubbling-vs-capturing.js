@@ -21,11 +21,11 @@
 */
 
 const item = document.querySelector('.item');
-const isBubbling = true;
+const isCapturingPhase = true;
 const logEvent = event => { console.log(event); }
 
-item.addEventListener('click', logEvent, isBubbling); //Event is on bubbling phase
+item.addEventListener('click', logEvent, isCapturingPhase); //Event is on capturing phase
 
-item.addEventListener('click', logEvent, !isBubbling); //Event is on capturing phase
+item.addEventListener('click', logEvent, !isCapturingPhase); //Event is on bubbling phase
 
 item.addEventListener('click', logEvent); //Event is on bubbling phase
