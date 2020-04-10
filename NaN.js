@@ -1,10 +1,10 @@
-NaN;
-console.log(typeof(NaN));
+NaN; 
+console.log(typeof(NaN)); 
 console.log(NaN == false);
 console.log(NaN == 1);
-console.log(NaN === 1);
-console.log(NaN == 0);
-console.log(NaN == NaN); //WHATTTTT
+console.log(NaN === 1); 
+console.log(NaN == 0); 
+console.log(NaN == NaN);  //WHATTTTT
 console.log(isNaN(1));
 console.log(isNaN('1'));
 console.log(isNaN('A'));

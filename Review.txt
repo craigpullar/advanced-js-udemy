@@ -1,0 +1,4 @@
+4. CORS
+5. Events sections
+6. Prototype chain
+7. strict

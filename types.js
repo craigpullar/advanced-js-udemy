@@ -8,6 +8,8 @@
     Undefined
 
     Object
+
+    B NUNS and object
 */
 
 const x = typeof(1); //gets typeof value
